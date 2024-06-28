@@ -16,7 +16,7 @@ export default function Topo(){
     return(
       
       <div class="topo">
-          <h1>DrivenFlix</h1>
+          <h1>TeleFlix</h1>
           <div>
             <button>Inserir nome</button>
             <p>{frase}</p>
