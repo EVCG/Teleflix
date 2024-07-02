@@ -1,11 +1,8 @@
-export default function MenuItem(props){ 
-    console.log(props) 
-    return(
-      <li>
-          <img src={props.imagem} />
-          <a href={props.link}>{props.texto}</a>
-      </li>
+export default function MenuItem(props) {
+    return (
+        <li data-test="item">
+            <img src={props.imagem} />
+            <a href={props.link}>{props.texto}</a>
+        </li>
     )
-  }
-
-  
+}

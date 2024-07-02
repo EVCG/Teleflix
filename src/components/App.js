@@ -1,17 +1,18 @@
 import Topo from "./Topo"
-import Conteudo from "./Conteudo"
 import Menu from "./Menu"
+import Conteudo from "./Conteudo"
 
-export default function App(){
-    return(
-      <div>
-        <Topo/>
-        
-        <div class="row">
-              <Menu/>
-              <Conteudo/>
-          </div>
+function App() {
+    return (
+        <div>
+            <Topo />
+
+            <div class="row">
+                <Menu />
+                <Conteudo />
+            </div>
         </div>
-      
     )
-  }
+}
+
+export default App

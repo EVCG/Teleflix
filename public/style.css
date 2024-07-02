@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
-*{
-    margin: 0;
-}
-
 /* Tags */
 body {
     font-family: 'Oswald', sans-serif;
@@ -43,7 +39,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 400px;
+    width: 500px;
 }
 
 .topo div img {
@@ -84,7 +80,7 @@ button {
 
 /* Classes - Conteudo */
 .conteudo {
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
     margin: 20px;
 }
@@ -111,4 +107,12 @@ button {
     align-items: center;
     text-align: center;
     padding: 0 10px;
+}
+
+.verde {
+    background-color: green;
+}
+
+.vermelho {
+    background-color: red;
 }
