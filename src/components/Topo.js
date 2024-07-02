@@ -4,17 +4,7 @@ export default function Topo() {
     const fotoInicial = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDexwez6fwjsz-N3lcR3P5xcQH5enbLr9Og&usqp=CAU"
     const [nomeDoUsuario, setNomeDoUsuario] = useState("")
     const [foto, setFoto] = useState(fotoInicial)
-    const [cor, setCor] = useState("#FFFFFF")
-
-    // function gerarCor() {
-    //     let r = Math.random() * 255;
-    //     let g = Math.random() * 255;
-    //     let b = Math.random() * 255;
-
-    //     setCor(`rgba(${r}, ${g}, ${b}, 1)`)
-    // }
-
-    
+    const [cor, setCor] = useState("#FFFFFF")    
 
     let frase = !nomeDoUsuario ? "Olá! Não sabemos o seu nome :(" : `Seja bem vindo(a), ${nomeDoUsuario}`
 
@@ -44,7 +34,6 @@ export default function Topo() {
         <div class="topo">
             <h1>TeleFlix</h1>
             <div>
-                <button onClick={trocarCor}>Trocar Cor</button>
                 <button onClick={apertarBotao}>Inserir Nome</button>
                 <p>{frase}</p>
                 <img onClick={trocarFoto} src={foto} />
